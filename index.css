@@ -1,0 +1,138 @@
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Lexend', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    color: black;
+}
+
+.box-1{
+    background-color: #A7001E;
+}
+
+.box-title{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.box-title h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 24px; 
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.box-2{
+    margin: 10px 5px;
+}
+
+.box2-title{
+    text-align: center;
+}
+
+.box2-title h1{
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.box2-texte{
+    text-align: center;
+}
+
+.box2-texte h4{
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.box-option{
+    padding: 10px;
+    text-align: center;
+}
+
+.box-option img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.option{
+    display: inline-block;
+    padding: 20px;
+}
+
+.option h5{
+    text-align: center;
+    padding: 15px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+} 
+
+.box-3{
+    margin: 10px 5px;
+}
+
+.box3-title{
+    padding: 0 10px;
+    text-align: center;
+}
+
+.box3-title h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.box3-texte{
+    text-align: center;
+}
+
+.box3-texte{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lexend', sans-serif;
+}
+
+.box-article img{
+    width: 250px;
+    height: 250px;
+}
+
+.box-article{
+    text-align: center;
+}
+
+.article{
+    margin: 5px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.article h5{
+    text-align: center;
+    padding: 25px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;  
+}
+
+.article:hover{
+    box-shadow: 10px 5px 5px gray;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.article:hover h5{
+    font-size: 19px;
+}
